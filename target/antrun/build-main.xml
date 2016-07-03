@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip basedir="C:\testmvn/target" destfile="C:\testmvn/target/app.zip" includes="Dockerfile, Dockerrun.aws.json, testmvn.jar"/>
+</target>
+</project>
